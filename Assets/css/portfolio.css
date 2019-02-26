@@ -1,0 +1,116 @@
+/* Navigation Bar */
+.container {
+    background-color: white;
+    width: auto;
+    margin: 0px;
+    max-width: none;
+    padding: 20px 100px 20px 100px;
+    }
+    
+    .nav-wrapper {
+    background-color: white;
+    box-shadow: none; 
+    -moz-window-shadow: none;
+    }
+    
+    nav {
+        box-shadow: none;
+    }
+    
+    
+    .btn:active {
+        background-color: cornflowerblue;
+        color: white;
+    }
+    
+    .btn {
+        background-color: white;
+        border: 1px white solid;
+        color: cornflowerblue;
+        box-shadow: none; 
+        transition: none;   
+        
+    }
+    
+    .btn:hover {
+        background-color: white;
+        border: 1px cornflowerblue solid;
+        color: cornflowerblue;
+        box-shadow: none;
+        transition: none;
+       
+    }
+
+/* Body css starts here */
+.s12 {
+    border: none;
+}
+
+.m6 {
+    border: none;
+}
+#pictureone { 
+    display: inline-block; 
+    background-image: url(../../Images/1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 22rem;
+}
+
+#picturetwo { 
+    display: inline-block; 
+    background-image: url(../../Images/2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 22rem;
+    border: 0px 10px 0px 10px white solid;
+    border-left: 20px white solid;
+    border-right: 20px white solid;
+    
+}
+#picturethree { 
+    display: inline-block; 
+    background-image: url(../../Images/3.png);
+    background-position: center;
+    background-size: cover;
+    height: 22rem;
+    
+}    
+
+#picturefour { 
+    display: inline-block; 
+    background-image: url(../../Images/4.png);
+    background-position: center;
+    background-size: cover;
+    height: 22rem;
+}
+
+#picturefive { 
+    display: inline-block; 
+    background-image: url(../../Images/5.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 22rem;
+    border-left: 20px white solid;
+    border-right: 20px white solid;
+
+}
+#picturesix { 
+    display: inline-block; 
+    background-image: url(../../Images/6.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 22rem;
+    
+}    
+
+    /* Footer here */
+
+.containercopyright {
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+    height: 5rem;
+    padding: 25px;
+
+}

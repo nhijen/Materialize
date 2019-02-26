@@ -1,0 +1,114 @@
+/* Navigation Bar */
+.container {
+background-color: white;
+width: auto;
+margin: 0px;
+max-width: none;
+padding: 20px 100px 20px 100px;
+}
+
+.nav-wrapper {
+background-color: white;
+box-shadow: none; 
+-moz-window-shadow: none;
+}
+
+nav {
+    box-shadow: none;
+}
+
+
+.btn:active {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.btn {
+    background-color: white;
+    border: 1px white solid;
+    color: cornflowerblue;
+    box-shadow: none; 
+    transition: none;   
+    
+}
+
+.btn:hover {
+    background-color: white;
+    border: 1px cornflowerblue solid;
+    color: cornflowerblue;
+    box-shadow: none;
+    transition: none;
+   
+}
+
+/* Body */
+
+.bodycontainer {
+    background-color: green;
+    margin: none;
+    text-align: center;
+    vertical-align: center;
+}
+
+#one {
+    background-color: blue;
+    height: 30rem;
+    background-image: url(../../Images/IMG_9545.jpg);
+    background-position: center;
+    margin: none;
+    background-size: cover;
+}
+
+
+h1 {
+    display: inline-block;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 20px 20px 20px 20px;
+    margin: 200px 0px 200px 0px;
+    width: 300px;
+    text-align: center;
+}
+
+#two {
+    box-sizing: border-box;
+    background-position: center;
+    background-image: url(../../Images/pic1.jpg);
+    height: 30rem;
+    background-size: cover;
+    margin: 20px 0px 20px 0px;
+}
+
+#three {
+    padding: 100px 100px 100px 100px;
+}
+
+h2 {
+    color: cornflowerblue;
+    font-size: 40px;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+h3 {
+    font-style: italic bold;
+    font-size: 16px;
+    margin: 0px;
+    padding: 10px 0px 10px 0px;
+}
+p {
+    padding: 20px 0px 20px 0px;
+    font-size: 16px;
+}
+
+/* Footer here */
+
+.containercopyright {
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+    height: 5rem;
+    padding: 25px;
+
+}
